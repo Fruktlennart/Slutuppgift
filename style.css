@@ -1,4 +1,4 @@
-body.startsida {
-background-image: url(bakgrund.jpg)
-
+.startsida{
+background-image: url("bilder/bakgrund.jpg");
+background-size: cover;
 }
