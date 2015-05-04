@@ -4,7 +4,14 @@
 <meta charset="utf-8">
 <title>Resmålen</title>
 <link rel ="stylesheet" href="style.css" text="text/css">
- 
+ <link rel="stylesheet" href="nivo-slider.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
 </head>
 <body class="startsida">
 <div role=[main]>
@@ -20,6 +27,15 @@
 	<li><a href="wien.html">Wien</a></li>	
 	</ul>
 	</div>
+	<div id="slider" class="nivoSlider">
+    <img src="bilder-slider/istanbul.jpg" alt="bild på istanbul"title=" Bild över Istanbul" />
+    <a href="http://dev7studios.com"><img src="bilder-slider/rom.jpg" alt="bild på rom" title="Bild på coloseum" /></a>
+    <img src="images/slide3.jpg" alt="" title="This is an example of a caption" />
+    <img src="images/slide4.jpg" alt="" />
+</div>
+<div id="htmlcaption" class="nivo-html-caption">
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+</div>
 
 
 
