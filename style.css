@@ -2,8 +2,8 @@
 background-image: url("bilder/bakgrund.jpg");
 background-size: cover;
 }
-<<<<<<< HEAD
-=======
+
+
 .lista > li  /* Fixar en horisontell lista */
 {
 display: inline;
@@ -16,4 +16,3 @@ text-align:center;
 text-align:center;
 
 }
->>>>>>> origin/master
