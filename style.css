@@ -2,3 +2,18 @@
 background-image: url("bilder/bakgrund.jpg");
 background-size: cover;
 }
+<<<<<<< HEAD
+=======
+.lista > li  /* Fixar en horisontell lista */
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+text-align:center;
+}
+.subpage
+{
+text-align:center;
+
+}
+>>>>>>> origin/master
