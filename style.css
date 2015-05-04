@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .startsida{
 background-image: url("bilder/bakgrund.jpg");
 background-size: cover;
@@ -16,7 +17,7 @@ text-align:center;
 {
 	text-decoration: none;
 }
-.subpage,startsida
+.subpage,.startsida
 
 {
 text-align:center;
