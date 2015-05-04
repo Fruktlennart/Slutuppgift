@@ -16,8 +16,17 @@ text-align:center;
 {
 	text-decoration: none;
 }
-.subpage
+.subpage,
+.startsida
 {
 text-align:center;
 
+}
+.subpage{ /* Denna fixar gräsen hur "stor" lådan är */
+max-width:700px;
+margin:auto;
+
+}
+.subpage  article { /* Fixar texten så att den inte är centrerad */ 
+text-align:left;
 }
