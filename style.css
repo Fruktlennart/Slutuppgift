@@ -12,9 +12,5 @@ text-align:center;
 .subpage
 {
 text-align:center;
-}nav > li {
-    display: inline-block;
-    width: 20%;
-    margin-right: 6%;
-    vertical-align: top;
+
 }
