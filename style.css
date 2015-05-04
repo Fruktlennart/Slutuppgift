@@ -2,7 +2,17 @@
 background-image: url("bilder/bakgrund.jpg");
 background-size: cover;
 }
-nav > li {
+.lista > li  /* Fixar en horisontell lista */
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+text-align:center;
+}
+.subpage
+{
+text-align:center;
+}nav > li {
     display: inline-block;
     width: 20%;
     margin-right: 6%;
