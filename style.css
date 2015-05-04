@@ -2,3 +2,9 @@
 background-image: url("bilder/bakgrund.jpg");
 background-size: cover;
 }
+nav > li {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
