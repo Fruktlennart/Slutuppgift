@@ -10,6 +10,11 @@ display: inline;
 list-style-type: none;
 padding-right: 20px;
 text-align:center;
+} /* Detta tar bort understräcken i länkarna */
+.lista  a:link,
+.lista  a:visited 
+{
+	text-decoration: none;
 }
 .subpage
 {
