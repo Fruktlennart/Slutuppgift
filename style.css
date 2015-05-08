@@ -31,3 +31,10 @@ margin:auto;
 .subpage  article { /* Fixar texten så att den inte är centrerad */ 
 text-align:left;
 }
+.twitter-timeline
+{
+position:fixed;
+top:30px;
+right:5px;
+}
+
