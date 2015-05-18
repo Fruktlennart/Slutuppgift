@@ -2,6 +2,7 @@
 .startsida{
 background-image: url("bilder/bakgrund.jpg");
 background-size: cover;
+
 }
 
 
@@ -57,6 +58,7 @@ margin:auto;
 margin-top:100px;
 max-width:700px;
 max-height:380px;
+
 }
 .nav nav{
 margin-top:25px;
@@ -81,5 +83,14 @@ background-color:white;
 
 .subpage{
 background-color:#87CEFA;
+
+}
+.h
+{
+background-color: rgba( 0,0,0,0.5);
+max-width:1000px;
+margin:auto;
+height:1000px;
+
 
 }
