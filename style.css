@@ -49,3 +49,34 @@ top:40px;
 left: 30px;
 
 }
+#slider{
+posistion:relative;
+margin:auto;
+margin-top:100px;
+max-width:700px;
+max-height:380px;
+}
+.nav nav{
+margin-top:25px;
+font-size:130%;
+width:720px;
+margin:auto;
+
+}
+
+.mainbody {
+
+
+padding-bottom:2em;
+padding-right:1em;
+padding-left:1em;
+height:1200px;
+width:720px;
+background-color:white;
+
+}
+
+.subpage{
+background-color:#87CEFA;
+
+}
