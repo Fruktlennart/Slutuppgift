@@ -37,11 +37,13 @@ text-align:left;
 position:fixed;
 top:30px;
 right:5px;
+max-width:100px;
 }
 .twitter{
 position:fixed;
 top:40px;
 right:20px;
+max-width:200px;
 }
 .chat{
 position:fixed;
