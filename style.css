@@ -6,6 +6,7 @@ background-size: cover;
 }
 
 
+
 .lista > li  /* Fixar en horisontell lista */
 {
 display: inline;
@@ -94,7 +95,7 @@ height:1000px;
 
 
 }
-ul {
+.subpage ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -103,18 +104,18 @@ ul {
 	
 }
 
-li {
+.subpage li {
     float:right;
 	border-bottom: 2px solid #87CEFA;
 	border-top: 5px solid #87CEFA;
 }
 
-a:link, a:visited {
+.subpage  a:link, a:visited {
     display: block;
     width: 120px;
     font-weight: bold;
     color: #87CEFA;
-    background-color: #FFF;
+    background-color: white;
     text-align: center;
     padding: 5px;
     text-decoration: none;
@@ -122,9 +123,19 @@ a:link, a:visited {
 	
 }
 
-a:hover, a:active {
-    background-color: #000;
+.subpage  a:hover, a:active {
+  
 }
-#current{
- color:yellow;
+.subpage  #current{
+ color:white;
+ background-color:#87CEFA;
 }
+footer
+{
+border: 5px solid black;
+}
+[role="main"]
+{
+max-width:2000px;
+}
+
