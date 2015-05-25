@@ -33,6 +33,7 @@ width:752px;
 
 
 
+
 }
 .subpage  article { /* Fixar texten så att den inte är centrerad */ 
 text-align:left;
@@ -81,7 +82,7 @@ font-family: 'Cabin Condensed', sans-serif;
 padding-bottom:2em;
 padding-right:1em;
 padding-left:1em;
-height:1200px;
+min-height:1200px;
 width:720px;
 background-color:white;
 
@@ -138,6 +139,20 @@ footer
 {
 border-top: 5px solid black;
 
+}
+.om-oss 
+{
+padding-top:100px;
+color: white;
+text-align:left;
+padding-left:10px;
+padding-right:10px;
+
+}
+.vi 
+{
+color:white;
+background-color:black;
 }
 
 
