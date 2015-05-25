@@ -94,3 +94,37 @@ height:1000px;
 
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	
+	
+}
+
+li {
+    float:right;
+	border-bottom: 2px solid #87CEFA;
+	border-top: 5px solid #87CEFA;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #87CEFA;
+    background-color: #FFF;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+	
+}
+
+a:hover, a:active {
+    background-color: #000;
+}
+#current{
+ color:yellow;
+}
