@@ -26,14 +26,18 @@ text-align:center;
 
 }
 .subpage{ /* Denna fixar gräsen hur "stor" lådan är */
-max-width:700px;
+
 margin:auto;
+background-color:#87CEFA;
+width:752px;
+
 
 
 }
 .subpage  article { /* Fixar texten så att den inte är centrerad */ 
 text-align:left;
 }
+/* Twitter flödet längst upp till höger */
 .twitter-timeline
 {
 position:fixed;
@@ -46,7 +50,8 @@ position:fixed;
 top:40px;
 right:20px;
 max-width:200px;
-}
+} 
+/* Slut på twitter flödet */
 .chat{
 position:fixed;
 top:40px;
@@ -82,10 +87,7 @@ background-color:white;
 
 }
 
-.subpage{
-background-color:#87CEFA;
 
-}
 .h
 {
 background-color: rgba( 0,0,0,0.5);
@@ -95,6 +97,7 @@ height:1000px;
 
 
 }
+/* Fixat stil på menyn */
 .subpage ul {
     list-style-type: none;
     margin: 0;
@@ -130,12 +133,11 @@ height:1000px;
  color:white;
  background-color:#87CEFA;
 }
+/* slut på stil på menyn */
 footer
 {
-border: 5px solid black;
+border-top: 5px solid black;
+
 }
-[role="main"]
-{
-max-width:2000px;
-}
+
 
